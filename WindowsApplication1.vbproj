@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F79849F-C782-402D-BD45-53DE59713312}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Desktop\مشاريع\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahfath1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahfath2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahfath3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahfath4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahfath44jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahfath45jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asawe21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asawer1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asawer3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asawer4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asawer5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asawer6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bantallon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bantallon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bantallon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bantallon4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bantallon5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bantallon6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooz1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooz2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooz3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooz4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooz5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooz56jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ead12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jaket1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jaket2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jaket3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jaket4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jaket5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jaket6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qames1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qames2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qames3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qames4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qames5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qames6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrat1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrat2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrat3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrat4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrat5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrat6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sal12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoossport1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoossport2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoossport3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoossport4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoossport5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoossport6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoss1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoss2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoss3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoss4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoss5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoss6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-sh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-sh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-sh2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-sh3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-sh4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t-sh5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vsateen1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vsateen2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vsateen3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vsateen4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vsateen5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vsateen6.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
